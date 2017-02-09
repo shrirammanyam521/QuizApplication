@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_buy_books"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Buy Books" />
+        <item
+            android:id="@+id/nav_rent_books"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Rent Books" />
+
+        <item
+            android:id="@+id/nav_download"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Download" />
+
+        <item
+            android:id="@+id/nav_upload"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Upload" />
+
+    </group>
+
+    <item android:title="Media">
+        <menu>
+            <item
+                android:id="@+id/nav_record_audio"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Record Audio" />
+            <item
+                android:id="@+id/nav_record_video"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Record Video" />
+        </menu>
+    </item>
+
+</menu>

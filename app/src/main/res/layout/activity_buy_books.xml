@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_buy_books"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="anonymous.quizapplication.BuyBooks.BuyBooks">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+
+                <ImageButton
+                    android:id="@+id/imgBtnBook1"
+                    android:layout_width="0dp"
+                    android:tag="The Secret of Druids"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/book1" />
+
+
+                <ImageButton
+                    android:id="@+id/imgBtnBook2"
+                    android:layout_width="0dp"
+                    android:tag="Harry Potter"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/book2" />
+
+                <ImageButton
+                    android:id="@+id/imgBtnBook3"
+                    android:layout_width="0dp"
+                    android:tag="The Secret of Nagas"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/book3" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+
+                <ImageButton
+                    android:id="@+id/imgBtnBook4"
+                    android:layout_width="0dp"
+                    android:tag="The Blood Mirror"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/book4" />
+
+
+                <ImageButton
+                    android:id="@+id/imgBtnBook5"
+                    android:layout_width="0dp"
+                    android:tag="The Time Machine"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/book5" />
+
+                <ImageButton
+                    android:id="@+id/imgBtnBook6"
+                    android:layout_width="0dp"
+                    android:tag="Harry Potter"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/book6" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+
+                <ImageButton
+                    android:id="@+id/imgBtnBook7"
+                    android:layout_width="0dp"
+                    android:tag="The Invisible Man"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/book7" />
+
+
+                <ImageButton
+                    android:id="@+id/imgBtnBook8"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:tag="Alice Adventures in Wonderland"
+                    android:layout_weight="1"
+                    android:src="@drawable/book8" />
+
+                <ImageButton
+                    android:id="@+id/imgBtnBook9"
+                    android:layout_width="0dp"
+                    android:tag="Harry Potter"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/book9" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+
+                <ImageButton
+                    android:id="@+id/imgBtnBook10"
+                    android:layout_width="0dp"
+                    android:tag="The Wolf of the North"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/book10" />
+
+
+                <ImageButton
+                    android:id="@+id/imgBtnBook11"
+                    android:layout_width="0dp"
+                    android:tag="Sanctuary"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/book11" />
+
+                <ImageButton
+                    android:id="@+id/imgBtnBook12"
+                    android:layout_width="0dp"
+                    android:tag="The Mysterious Island"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/book12" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+
+                <ImageButton
+                    android:id="@+id/imgBtnBook13"
+                    android:layout_width="0dp"
+                    android:tag="The Adventures of Sherlock Holmes"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/book13" />
+
+
+                <ImageButton
+                    android:id="@+id/imgBtnBook14"
+                    android:layout_width="0dp"
+                    android:tag="The Time Machine"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/book14" />
+
+                <ImageButton
+                    android:id="@+id/imgBtnBook15"
+                    android:layout_width="0dp"
+                    android:tag="Crystal Magic"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/book15" />
+
+            </LinearLayout>
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

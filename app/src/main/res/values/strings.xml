@@ -1,0 +1,120 @@
+<resources>
+    <string name="app_name">Quiz Application</string>
+
+
+    <string name="c_q1">Q 1 - What is the output of the below code snippet?</string>
+    <string name="c_q2">Q 2 - What is the output of the following program?</string>
+    <string name="c_q3">Q 3 - Linker generates ___ file.</string>
+    <string name="c_q4">Q 4 - What is the output of the following program?</string>
+    <string name="c_q5">Q 5 - What is the output of the following program?</string>
+    <string name="c_q6">Q 6 - Which header statement is missing in the given below program to get the desired output?</string>
+    <string name="c_q7">Q 7 - What function can be used to free the memory allocated by calloc()?</string>
+    <string name="c_q8">Q 8 - The return keyword used to transfer control from a function back to the calling function.</string>
+    <string name="c_q9">Q 9 - What will be the output of the following program?</string>
+    <string name="c_q10">Q 10 - According to ANSI specification, how to declare main () function with command-line arguments?</string>
+
+
+    <string name="c_q1_a1">A - Infinite loop</string>
+    <string name="c_q1_a2">B - Prints "Hello" once</string>
+    <string name="c_q1_a3">C - No output </string>
+    <string name="c_q1_a4">D - Compile Error </string>
+
+    <string name="c_q2_a1">A - Infinite loop</string>
+    <string name="c_q2_a2">B - Prints "Hello" once</string>
+    <string name="c_q2_a3">C - No output </string>
+    <string name="c_q2_a4">D - Compile Error </string>
+
+
+    <string name="c_q3_a1">A - Infinite loop</string>
+    <string name="c_q3_a2">B - Prints "Hello" once</string>
+    <string name="c_q3_a3">C - No output </string>
+    <string name="c_q3_a4">D - Compile Error </string>
+
+
+    <string name="c_q4_a1">A - Infinite loop</string>
+    <string name="c_q4_a2">B - Prints "Hello" once</string>
+    <string name="c_q4_a3">C - No output </string>
+    <string name="c_q4_a4">D - Compile Error </string>
+
+
+    <string name="c_q5_a1">A - Infinite loop</string>
+    <string name="c_q5_a2">B - Prints "Hello" once</string>
+    <string name="c_q5_a3">C - No output </string>
+    <string name="c_q5_a4">D - Compile Error </string>
+
+
+    <string name="c_q6_a1">A - Infinite loop</string>
+    <string name="c_q6_a2">B - Prints "Hello" once</string>
+    <string name="c_q6_a3">C - No output </string>
+    <string name="c_q6_a4">D - Compile Error </string>
+
+
+    <string name="c_q7_a1">A - Infinite loop</string>
+    <string name="c_q7_a2">B - Prints "Hello" once</string>
+    <string name="c_q7_a3">C - No output </string>
+    <string name="c_q7_a4">D - Compile Error </string>
+
+
+    <string name="c_q8_a1">A - Infinite loop</string>
+    <string name="c_q8_a2">B - Prints "Hello" once</string>
+    <string name="c_q8_a3">C - No output </string>
+    <string name="c_q8_a4">D - Compile Error </string>
+
+
+    <string name="c_q9_a1">A - Infinite loop</string>
+    <string name="c_q9_a2">B - Prints "Hello" once</string>
+    <string name="c_q9_a3">C - No output </string>
+    <string name="c_q9_a4">D - Compile Error </string>
+
+
+    <string name="c_q10_a1">A - Infinite loop</string>
+    <string name="c_q10_a2">B - Prints "Hello" once</string>
+    <string name="c_q10_a3">C - No output </string>
+    <string name="c_q10_a4">D - Compile Error </string>
+
+
+
+    <string name="c_overview">C is a general-purpose, high-level language that was originally developed by Dennis M. Ritchie to develop the UNIX operating system at Bell Labs. C was originally first implemented on the DEC PDP-11 computer in 1972.
+
+In 1978, Brian Kernighan and Dennis Ritchie produced the first publicly available description of C, now known as the K&amp;R standard.
+
+The UNIX operating system, the C compiler, and essentially all UNIX application programs have been written in C. C has now become a widely used professional language for various reasons −
+
+Easy to learn
+Structured language
+It produces efficient programs
+It can handle low-level activities
+It can be compiled on a variety of computer platforms</string>
+
+
+    <string name="java_q1"></string>
+    <string name="java_q2"></string>
+    <string name="java_q3"></string>
+    <string name="java_q4"></string>
+    <string name="java_q5"></string>
+    <string name="java_q6"></string>
+    <string name="java_q7"></string>
+    <string name="java_q8"></string>
+    <string name="java_q9"></string>
+    <string name="java_q10"></string>
+
+
+    <string name="py_q1"></string>
+    <string name="py_q2"></string>
+    <string name="py_q3"></string>
+    <string name="py_q4"></string>
+    <string name="py_q5"></string>
+    <string name="py_q6"></string>
+    <string name="py_q7"></string>
+    <string name="py_q8"></string>
+    <string name="py_q9"></string>
+    <string name="py_q10"></string>
+    <string name="title_activity_home">Home</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+
+</resources>

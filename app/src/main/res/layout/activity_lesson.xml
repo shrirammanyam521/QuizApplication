@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_lesson"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="anonymous.quizapplication.Lessons">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvL1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lesson 1"
+                android:textSize="25sp"
+                android:typeface="serif" />
+
+            <TextView
+                android:id="@+id/tvL1Q1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lesson 1 Quiz"
+                android:textSize="25sp"
+                android:typeface="serif" />
+
+            <TextView
+                android:id="@+id/tvL2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lesson 2"
+                android:textSize="25sp"
+                android:typeface="serif" />
+
+            <TextView
+                android:id="@+id/tvL2Q2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lesson 2 Quiz"
+                android:textSize="25sp"
+                android:typeface="serif" />
+
+            <TextView
+                android:id="@+id/tvL3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lesson 3"
+                android:textSize="25sp"
+                android:typeface="serif" />
+
+            <TextView
+                android:id="@+id/tvL3Q3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lesson 3 Quiz"
+                android:textSize="25sp"
+                android:typeface="serif" />
+
+            <TextView
+                android:id="@+id/tvL4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lesson 4"
+                android:textSize="25sp"
+                android:typeface="serif" />
+
+            <TextView
+                android:id="@+id/tvL4Q4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lesson 4 Quiz"
+                android:textSize="25sp"
+                android:typeface="serif" />
+
+            <TextView
+                android:id="@+id/tvL5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lesson 5"
+                android:textSize="25sp"
+                android:typeface="serif" />
+
+            <TextView
+                android:id="@+id/tvL5Q5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lesson 5 Quiz"
+                android:textSize="25sp"
+                android:typeface="serif" />
+
+
+            <TextView
+                android:id="@+id/tvL6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lesson 6"
+                android:textSize="25sp"
+                android:typeface="serif" />
+
+            <TextView
+                android:id="@+id/tvL6Q6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lesson 6 Quiz"
+                android:textSize="25sp"
+                android:typeface="serif" />
+
+            <TextView
+                android:id="@+id/tvL7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lesson 7"
+                android:textSize="25sp"
+                android:typeface="serif" />
+
+            <TextView
+                android:id="@+id/tvL7Q7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lesson 7 Quiz"
+                android:textSize="25sp"
+                android:typeface="serif" />
+
+            <TextView
+                android:id="@+id/tvL8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lesson 8"
+                android:textSize="25sp"
+                android:typeface="serif" />
+
+            <TextView
+                android:id="@+id/tvL8Q8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lesson 8 Quiz"
+                android:textSize="25sp"
+                android:typeface="serif" />
+
+            <TextView
+                android:id="@+id/tvL9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lesson 9"
+                android:textSize="25sp"
+                android:typeface="serif" />
+
+            <TextView
+                android:id="@+id/tvL9Q9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lesson 9 Quiz"
+                android:textSize="25sp"
+                android:typeface="serif" />
+
+            <TextView
+                android:id="@+id/tvL10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lesson 10"
+                android:textSize="25sp"
+                android:typeface="serif" />
+
+            <TextView
+                android:id="@+id/tvL10Q10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lesson 10 Quiz"
+                android:textSize="25sp"
+                android:typeface="serif" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

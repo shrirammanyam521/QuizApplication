@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="anonymous.quizapplication">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera2" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name=".splashscreen.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".register.Register" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".WebViewActivity" />
+        <activity android:name=".Lessons" />
+        <activity
+            android:name=".NavigationDrawer.Home"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".AudioCapture.AudioCapture" />
+        <activity android:name=".VideoCapture.VIdeoCapture" />
+        <activity android:name=".upload.upload" />
+        <activity android:name=".upload.upload_home" />
+        <activity android:name=".BuyBooks.BuyBooks" />
+        <activity android:name=".RentBooks.RentBooks" />
+        <activity android:name=".PaymentOptions.PaymentOptions" />
+        <activity android:name=".PaymentOptions.CardTransaction" />
+        <activity android:name=".login.Login" />
+        <activity android:name=".login.ForgotPassword" />
+        <activity android:name=".download.Download"></activity>
+    </application>
+
+</manifest>
